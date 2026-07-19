@@ -2,6 +2,7 @@
   "version": "5",
   "specifiers": {
     "npm:@vite-pwa/assets-generator@^1.0.2": "1.0.2",
+    "npm:dexie@^4.4.2": "4.4.2",
     "npm:lit@^3.3.1": "3.3.2",
     "npm:typescript@~5.9.3": "5.9.3",
     "npm:vite-plugin-pwa@^1.1.0": "1.3.0_@vite-pwa+assets-generator@1.0.2_vite@7.3.3_workbox-build@7.4.1_workbox-window@7.4.1",
@@ -1602,6 +1603,9 @@
     "detect-libc@2.1.2": {
       "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ=="
     },
+    "dexie@4.4.2": {
+      "integrity": "sha512-zMtV8q79EFE5U8FKZvt0Y/77PCU/Hr/RDxv1EDeo228L+m/HTbeN2AjoQm674rhQCX8n3ljK87lajt7UQuZfvw=="
+    },
     "dunder-proto@1.0.1": {
       "integrity": "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==",
       "dependencies": [
@@ -3079,6 +3083,7 @@
     "packageJson": {
       "dependencies": [
         "npm:@vite-pwa/assets-generator@^1.0.2",
+        "npm:dexie@^4.4.2",
         "npm:lit@^3.3.1",
         "npm:typescript@~5.9.3",
         "npm:vite-plugin-pwa@^1.1.0",
